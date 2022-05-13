@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+}
+main {
+}
+.topo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  margin: 10px 0px;
+  gap: 70px;
+}
+
+.topo > p {
+  color: #ff0778;
+}
+
+.conteudo {
+  padding: 20px 0;
+  background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png),
+    linear-gradient(135deg, #d11264, #f11075);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 60%;
+}
+.text1 {
+  color: white;
+  font-weight: 1000;
+}
+
+.text2 {
+  color: white;
+}
+
+.inputs {
+  display: flex;
+  background-color: white;
+  margin: 0 24px;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+input {
+  width: 100%;
+}
