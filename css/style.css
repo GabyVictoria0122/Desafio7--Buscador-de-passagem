@@ -2,31 +2,33 @@
   margin: 0;
 }
 main {
-}
-.topo {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  margin: 10px 0px;
-  gap: 70px;
-}
-
-.topo > p {
-  color: #ff0778;
-}
-
-.conteudo {
   background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png),
     linear-gradient(135deg, #d11264, #f11075);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+}
+.topo {
+  height: 70px;
   width: 100%;
-  height: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  gap: 100px;
+}
+
+.topo > p {
+  color: #ff0778;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.conteudo {
+  width: 100%;
+  height: 100%;
   padding: 20px 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .text {
@@ -37,17 +39,22 @@ main {
 }
 .text1 {
   color: white;
-  font-weight: 1000;
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: uppercase;
+  display: inline;
 }
 
 .text2 {
   color: white;
+  font-size: 1.25rem;
+  line-height: 1.5;
 }
 
 .inputs {
   display: flex;
   flex-direction: column;
-
   background-color: white;
   margin: 20px 24px;
   padding: 20px 20px;
@@ -56,11 +63,18 @@ main {
 
 input {
   width: 97%;
-  height: 30px;
+  height: 40px;
   border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #c1c1c1;
+  color: #c1c1c1;
 }
 
 button {
   width: 100%;
   border-radius: 5px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: #ff0778;
+  color: white;
 }
