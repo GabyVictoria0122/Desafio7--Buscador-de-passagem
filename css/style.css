@@ -94,13 +94,22 @@ button > img {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  gap: 5px;
+  gap: 30px;
   background-color: white;
   height: 60px;
+}
+footer > p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  color: #424242;
 }
 
 .tamanho-icon {
   height: 20px;
+  width: 20px;
 }
