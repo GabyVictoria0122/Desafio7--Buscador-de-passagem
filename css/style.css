@@ -1,8 +1,7 @@
 * {
   margin: 0;
 }
-main {
-}
+
 .topo {
   height: 70px;
   width: 100%;
@@ -73,6 +72,10 @@ input {
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
   width: 100%;
   border-radius: 5px;
   height: 40px;
@@ -81,4 +84,23 @@ button {
   color: white;
   font-size: 16px;
   font-weight: 400;
+}
+
+button > img {
+  height: 20px;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5px;
+  background-color: white;
+  height: 60px;
+}
+
+.tamanho-icon {
+  height: 20px;
 }
